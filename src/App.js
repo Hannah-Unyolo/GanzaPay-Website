@@ -7,6 +7,9 @@ function App(){
   return(
     <div>
         <Navb/>
+        <div>
+        <Intro/>
+        </div>
       
     </div>
    
@@ -14,5 +17,16 @@ function App(){
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
 
 
