@@ -6,11 +6,8 @@ import About from "./About/contact";
 function App(){
   return(
     <div>
-       <div>
-        <About/>
-        </div>
         <Navb/>
-    {/* </div> */}
+      
     </div>
    
   )
