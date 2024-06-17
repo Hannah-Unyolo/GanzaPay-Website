@@ -1,19 +1,22 @@
+
 import Product from "./Product";
+import Intro from './Landing-page';
+import "./App.css"
+import Navb from "./Navbar/navbar"
 
-export const About = () => {
+function Nav(){
   return(
-    <h1>GanzaPay</h1>
-  )
-}
+        <h1>GanzaPay</h1>
+      < Product/>
+    <div>
+            <section className='all'>
+        <div className='Landingpage'>
 
-const App =() =>{
-return(
-  <div>
-  {/* <h1>About the product</h1> */}
-  < Product/>
-  </div >
-)
-}
+            <Intro/>
+        </div>
+<Navb/>
+    </div>
+  );
+};
 
-
-export default App;
+export default Nav;
