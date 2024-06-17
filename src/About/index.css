@@ -1,3 +1,4 @@
+
   .contact{
     background-image: url('../image/computer.jpg');
     background-repeat: no-repeat;
@@ -335,3 +336,46 @@
       padding-left: 41%;
     }
   }
+
+.about-text {
+  color: #0d2564;
+  display: flex;
+  justify-content: space-between;
+}
+.about-text p {
+  padding: 35px 35px;
+  border-radius: 4%;
+  background-color: #0d2564;
+  color: white;
+  margin-top: 15%;
+  margin-right: 15%;
+}
+h2{
+  margin-top: 10%;
+  margin-left: 7%;
+  margin-right: -6%;
+}
+h3{
+  /* margin-left: 20%; */
+}
+
+@media (min-width: 270px) and (max-width: 374px) {
+  .about-text{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .about-text p {
+    padding: 35px 35px;
+    border-radius: 4%;
+    color: white;
+    margin-top: 50%;
+    margin-right: 15%;
+  }
+  h2{
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: -6%;
+    font-size: 20px;
+  }
+} 

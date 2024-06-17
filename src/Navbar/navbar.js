@@ -1,3 +1,4 @@
+
 import "./navbar.css";
 import gplogo from "./gplogo.png";
 
@@ -19,3 +20,4 @@ function Navb() {
 }
 
 export default Navb;
+
