@@ -1,4 +1,4 @@
-import './navbar.css';
+import './index.css';
 import gplogo from './gplogo.png'
 
 function Navb(){

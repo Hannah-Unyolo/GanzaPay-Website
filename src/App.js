@@ -1,4 +1,4 @@
-import Navb from "./Navbar/navbar"
+import Navb from "./Navbar/index"
 
 function Nav(){
   return(
