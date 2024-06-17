@@ -1,19 +1,22 @@
+
 import Intro from './Landing-page';
 import "./App.css"
+import Navb from "./Navbar/navbar"
 
-
-const Introduction =()=>{
-    return(
-        <section className='all'>
+function Nav(){
+  return(
+    <div>
+            <section className='all'>
         <div className='Landingpage'>
 
             <Intro/>
         </div>
-        </section>
-    );
+<Navb/>
+    </div>
+  );
 };
 
-export default  Introduction;
+export default Nav;
 
 
 
