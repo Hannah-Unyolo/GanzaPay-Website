@@ -1,1 +1,79 @@
 
+
+.all{
+  background-image: url(./image/A\ man.jpg);
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 20%;
+  border: none;
+  padding: auto;
+  color: #0D2564;
+  padding-left: 20px;
+
+  
+  font-size: 30px;
+  
+
+}
+
+
+ @media (min-width: 250px) and (max-width: 750px) {
+  .all {
+
+  
+    background-image: url(./image/A\ man.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    border: none;
+    padding: auto;
+    color: #0D2564;
+    
+    font-size: 15px;
+    
+
+
+   }
+}
+
+
+
+@media (min-width: 750px) and (max-width: 1000px) {
+  .all {
+
+  
+    background-image: url(./image/A\ man.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    border: none;
+    padding: auto;
+    color: #0D2564;
+    
+    font-size: 10px;
+    
+
+
+   }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .all {
+
+  
+    background-image: url(./image/A\ man.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 30%;
+    border: none;
+    padding: auto;
+    color: #0D2564;
+    
+    font-size: 20px;
+    
+
+
+   }
+}
+
