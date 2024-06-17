@@ -7,10 +7,7 @@ function App(){
   return(
     <div>
         <Navb/>
-        <div>
-        <Intro/>
-        </div>
-      
+        
     </div>
    
   )
