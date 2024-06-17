@@ -5,6 +5,8 @@ import './index.css';
 import App, {Us} from './App';
 import App, {About} from './App';
 import reportWebVitals from './reportWebVitals';
+import About from './About/contact';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +14,7 @@ root.render(
     <Us />
     <About />
     <App />
+    <About/>
   </React.StrictMode>
 );
 

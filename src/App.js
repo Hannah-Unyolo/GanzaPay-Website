@@ -1,4 +1,6 @@
 
+import About from "./About/contact";
+
 import About from "./About";
 import Product from "./Product";
 import Intro from './Landing-page';
@@ -22,3 +24,4 @@ function Nav(){
 };
 
 export default Nav;
+
