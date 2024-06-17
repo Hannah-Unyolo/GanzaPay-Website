@@ -1,14 +1,16 @@
 
+import Footer from "./Footer/footer";
 import About from "./About/contact";
 
 import About from "./About";
 import Product from "./Product";
 import Intro from './Landing-page';
-import "./App.css"
-import Navb from "./Navbar/navbar"
+import "./App.css";
+import Navb from "./Navbar/navbar";
 
 function Nav(){
   return(
+          <Footer/>
           <About />
         <h1>GanzaPay</h1>
       < Product/>
@@ -24,4 +26,3 @@ function Nav(){
 };
 
 export default Nav;
-
